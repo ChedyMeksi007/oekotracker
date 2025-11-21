@@ -41,7 +41,7 @@ def signup_user(email: str, password: str, username: str) -> Tuple[str, UserResp
 
 def login_user(email: str, password: str) -> Tuple[str, UserResponse]:
     session = supabase.auth.sign_in_with_password({"email": email, "password": password})
-    if not session or not getattr(session, "user", None):
+    if not session or not getattr(session.session, "user", None):
         raise ValueError("Invalid email or password")
 
     auth_id = session.user.id
