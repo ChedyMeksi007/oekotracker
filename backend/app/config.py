@@ -18,3 +18,5 @@ class Settings:
             raise ValueError("SUPABASE_KEY not set in .env")
 
 settings = Settings()
+print(settings.SUPABASE_URL)
+print(settings.SUPABASE_KEY)
