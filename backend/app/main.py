@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, Header
 from app.models.schemas import SignupRequest, LoginRequest, AuthResponse, UserResponse, RecycleSubmitResponse, RecycleSubmitRequest
+from fastapi.middleware.cors import CORSMiddleware
 from app.auth import signup_user, login_user, get_current_user
 from supabase_auth.errors import AuthApiError
 from app.db import SupabaseDB
