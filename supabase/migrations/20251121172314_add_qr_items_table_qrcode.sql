@@ -1,0 +1,3 @@
+ALTER TABLE qr_items
+ADD COLUMN qr_code TEXT UNIQUE;
+
