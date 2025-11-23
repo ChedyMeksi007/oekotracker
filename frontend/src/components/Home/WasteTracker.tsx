@@ -1,5 +1,5 @@
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card } from "./ui/card";
+import { Button } from "./ui/button";
 import { Plus, Minus, Trash2, Recycle, Wine, FileText, QrCode, Camera, Gift } from "lucide-react";
 import { useState } from "react";
 

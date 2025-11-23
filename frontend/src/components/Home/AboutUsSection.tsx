@@ -1,7 +1,7 @@
-import { Card } from "@/components/ui/card";
+import { Card } from "./ui/card";
 import { Leaf, Target, Users, Heart, GraduationCap } from "lucide-react";
-import tuBerlinLogo from "@/assets/tu-berlin-logo.png";
-import htwBerlinLogo from "@/assets/htw-berlin-logo.png";
+import tuBerlinLogo from "../../assets/tu-berlin-logo.png";
+import htwBerlinLogo from "../../assets/htw-berlin-logo.png";
 
 export const AboutUsSection = () => {
   return (

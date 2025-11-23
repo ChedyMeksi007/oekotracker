@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card";
+import { Card } from "./ui/card";
 import { TrendingDown, Euro, Leaf, Info } from "lucide-react";
 
 export const AboutCO2Section = () => {

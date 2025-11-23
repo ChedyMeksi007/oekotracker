@@ -1,5 +1,5 @@
-import { Card } from "@/components/ui/card";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Card } from "./ui/card";
+import { Avatar, AvatarFallback } from "./ui/avatar";
 import { Trophy, Medal, Award } from "lucide-react";
 
 const leaders = [

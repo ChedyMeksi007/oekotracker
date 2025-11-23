@@ -1,6 +1,6 @@
-import { Card } from "@/components/ui/card";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
+import { Card } from "./ui/card";
+import { Avatar, AvatarFallback } from "./ui/avatar";
+import { Button } from "./ui/button";
 import { Users, MessageSquare, Heart, TrendingUp } from "lucide-react";
 
 const testimonials = [
